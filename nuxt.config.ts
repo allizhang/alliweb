@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
-    baseURL: '/alliweb/',  // <-- IMPORTANT
+    baseURL: '/',  // <-- IMPORTANT /alliweb to use subdomain
     buildAssetsDir: 'assets/'
   },
 
