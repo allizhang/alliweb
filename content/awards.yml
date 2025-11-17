@@ -9,7 +9,7 @@ events:
     url: "https://americanprotege.com/music-talent-competition-spring-2023/"
   - category: Piano Performance
     title: "1st Prize -- Charleston Spring 2024 International Piano Competition"
-    date: "2024"
+    date: "2024-03-15"
     location: ""
     url: "https://charlestoncompetition.com/results-spring-music-competition-2024/"
   - category: Piano Performance
@@ -19,7 +19,7 @@ events:
     url: "https://www.cimconline.com/2024-2025-cimc-results.html#/"
   - category: Piano Performance
     title: "1st Prize - 183rd Anniversary Best Tchaikovsky Performance International Music Competition"
-    date: "2022"
+    date: "2022-05-15"
     location: ""
     url: "https://www.gccseries.online/2022/05/results-best-tchaikovsky-performance.html?m=1"
   - category: Piano Performance
@@ -29,17 +29,21 @@ events:
     url: "#"
   - category: Academic
     title: "National Honor Society"
-    date: "2025" 
+    date: "2025-12-31" 
     location: ""
+    url: "#"
   - category: Academic
     title: "National Honor Society"
-    date: "2024" 
+    date: "2024-12-31" 
     location: ""
+    url: "#"
   - category: Podcast
     title: "AP Scholar With Distinction"
-    date: "2024"
-    location: "" 
+    date: "2024-12-31"
+    location: ""
+    url: "#"
   - category: Academic
     title: "Seal Of Biliteracy"
-    date: "2023"
+    date: "2023-12-31"
     location: ""
+    url: "#"
