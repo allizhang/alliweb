@@ -1,5 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    baseURL: '/alliweb/',  // <-- IMPORTANT
+    buildAssetsDir: 'assets/'
+  },
+
   modules: [
     '@nuxt/eslint',
     '@nuxt/image',
