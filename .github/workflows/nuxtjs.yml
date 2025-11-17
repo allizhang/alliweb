@@ -42,27 +42,6 @@ jobs:
           node-version: "20"
           cache: "pnpm"
 
-      # Cache node_modules
-      - name: Cache node_modules
-        uses: actions/cache@v4
-        with:
-          path: |
-            node_modules
-          key: ${{ runner.os }}-nm-${{ hashFiles('pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-nm-
-
-      # Cache Nuxt build artifacts
-      - name: Cache Nuxt build output
-        uses: actions/cache@v4
-        with:
-          path: |
-            .nuxt
-            dist
-          key: ${{ runner.os }}-nuxt-${{ hashFiles('**/*') }}
-          restore-keys: |
-            ${{ runner.os }}-nuxt-
-
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
@@ -70,8 +49,8 @@ jobs:
         run: pnpm run generate
 
       - name: Debug output
-        run: ls -R .
-        
+        run: ls -R ./dist
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
