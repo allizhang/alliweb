@@ -19,10 +19,14 @@ pnpm dev
 Build the application for production:
 
 ```bash
-pnpm build
+pnpm run generate
 ```
 
+√ Generated public .output/public
+√ You can preview this build using npx serve .output/public
+√ You can now deploy .output/public to any static hosting!
 Locally preview production build:
+npx serve .output/public
 
 ```bash
 pnpm preview
