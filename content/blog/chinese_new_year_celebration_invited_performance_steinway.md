@@ -2,7 +2,7 @@
 title: Lunar Year Celebration Piano Performance as an Invited Young Pianist at Steinway
 description: Piano Performance to celebrate Chinese New Year 2023 - "A Beatiful Jasmine Flower".
 date: 2024-01-28
-image: "/images/"
+image: "/images/chinese_new_year_celebration_steinway.jpg"
 minRead: 7
 author:
   name: Allison Zhang
