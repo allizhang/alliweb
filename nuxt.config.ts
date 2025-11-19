@@ -4,6 +4,10 @@ export default defineNuxtConfig({
     baseURL: '/',
     buildAssetsDir: 'assets/'
   },
+ 
+  devtools: {
+    enabled: false
+  },
 
   modules: [
     '@nuxt/eslint',
@@ -15,9 +19,6 @@ export default defineNuxtConfig({
     'motion-v/nuxt'
   ],
 
-  devtools: {
-    enabled: false
-  },
 
   css: ['~/assets/css/main.css'],
 
